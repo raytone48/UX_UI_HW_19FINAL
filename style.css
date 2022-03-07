@@ -1,10 +1,24 @@
-/* Text */
-h1, h2, h3 , h4, h5, h6 {
-    font-family: 'Anton', sans-serif;
+  /* Body */
+  .body {
+      background-color: #3d75e4;
+  }
+  
+  
+  
+  
+  /* Text */
+  h1, h2, h3 , h4, h5, h6 {
+    font-family: 'Ubuntu', sans-serif;
   }
   p {
-    font-family: 'Jura', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
   }
+
+  /* Buttons */
+  .btn {
+    background-color: #739DD3 !important;
+  }
+
   
   /* Navigation bar */
   
@@ -27,12 +41,14 @@ h1, h2, h3 , h4, h5, h6 {
   }
   .nav-item {
     margin: 0px 15px;
+    font-size: 25px;
+    font-family: 'Ubuntu', sans-serif;
   }
   
   
   /* Navigation links */
   .customNav a {
-    color: black !important;
+    color: #505D68 !important;
   }
   .navCTA {
     font-size: 15px;
