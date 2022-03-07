@@ -1,0 +1,109 @@
+/* Text */
+h1, h2, h3 , h4, h5, h6 {
+    font-family: 'Anton', sans-serif;
+  }
+  p {
+    font-family: 'Jura', sans-serif;
+  }
+  
+  /* Navigation bar */
+  
+  /* General */
+  .customNav {
+    position: fixed;
+    width: 100%;
+    background: url("Images/transparency.png");
+    background-color: transparent !important;
+    background-size: cover;
+    z-index: 10;
+  }
+  .navbar-nav {
+    margin-left: auto;
+    margin-right: 0 !important;
+  }
+  .navbar-brand img {
+    padding-right: 15px;
+    width: 65px;
+  }
+  .nav-item {
+    margin: 0px 15px;
+  }
+  
+  
+  /* Navigation links */
+  .customNav a {
+    color: black !important;
+  }
+  .navCTA {
+    font-size: 15px;
+  }
+
+
+  /* Jumbotron  */
+  .jumbotron {
+    background-image: url(Images/locations.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: calc(100vh - 25px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* Jumbotron copy */
+.jumboCopy {
+    width: 70%;
+    min-width: 500px;
+    max-width: 700px;
+    color: white;
+    text-align: center;
+  }
+
+  /* Jumbotron  */
+  .jumbotron2 {
+    background-image: url(Images/latestsermon.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: calc(75vh);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 70%;
+    margin-top: 13rem;
+  }
+
+  /* Jumbotron copy */
+  .jumboCopy2 {
+    width: 70%;
+    min-width: 500px;
+    max-width: 700px;
+    color: white;
+    text-align: left;
+  }
+
+
+  /* Cards */
+  .content {
+    margin-top: 10rem;
+    padding: 50px;
+  }
+  
+  .cardContainer {
+    text-align: left;
+    margin-bottom: 13rem;
+  }
+
+  #cards {
+      display: flex;
+      justify-content: center;
+  }
+
+
+  /* Ministries */
+ 
+
+  /* Footer */
+  .page-footer {
+      margin-top: 10rem;
+  }
