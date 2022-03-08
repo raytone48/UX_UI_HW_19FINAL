@@ -41,7 +41,7 @@
   }
   .nav-item {
     margin: 0px 15px;
-    font-size: 25px;
+    font-size: 18px;
     font-family: 'Ubuntu', sans-serif;
   }
   
@@ -85,7 +85,7 @@
     align-items: center;
     justify-content: center;
     margin: auto;
-    width: 70%;
+    width: 93%;
     margin-top: 13rem;
   }
 
@@ -117,7 +117,54 @@
 
 
   /* Ministries */
- 
+  .row {
+      padding: 15px;
+  }
+  .overlay {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      background-color: rgba(187, 218, 252, 0.8);
+      height: 100%;
+      width: 97%;
+      opacity: 0;
+      transition: .75s ease;
+  }
+  .ctr {
+      position: absolute;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      padding-top: 26%;
+  }
+  .imghov:hover .overlay {
+      opacity: 1;
+  }
+
+
+  .row2 {
+    padding: 15px;
+  }
+  .overlay2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: rgba(187, 218, 252, 0.8);
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .75s ease;
+  }
+  .ctr2 {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding-top: 26%;
+  }
+  .imghov2:hover .overlay2 {
+    opacity: 1;
+  }  
+
+
 
   /* Footer */
   .page-footer {
